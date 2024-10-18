@@ -1,0 +1,12 @@
+[Unit]
+Description=Dim LED on Display HAT Mini
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/dim_led.py
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
