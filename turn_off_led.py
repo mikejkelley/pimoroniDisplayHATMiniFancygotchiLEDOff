@@ -1,9 +1,9 @@
 import RPi.GPIO as GPIO
 
 # Correct pin numbers for the LED channels
-red_pin = 26  # GPIO pin for red channel of the LED
-green_pin = 19  # GPIO pin for green channel
-blue_pin = 13  # GPIO pin for blue channel
+red_pin = 17  # GPIO pin for red channel of the LED
+green_pin = 22  # GPIO pin for green channel
+blue_pin = 27  # GPIO pin for blue channel
 
 # Set up GPIO
 GPIO.setmode(GPIO.BCM)
